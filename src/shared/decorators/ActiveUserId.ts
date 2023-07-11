@@ -1,4 +1,4 @@
-import { ExecutionContext, Req, UnauthorizedException, createParamDecorator } from "@nestjs/common"
+import { ExecutionContext, UnauthorizedException, createParamDecorator } from "@nestjs/common"
 
 export const ActiveUserId = createParamDecorator<undefined>((data, context: ExecutionContext) => {
     const request = context.switchToHttp().getRequest();
