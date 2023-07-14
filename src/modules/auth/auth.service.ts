@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ConflictException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { SigninDto } from './dto/signin';
 import { UsersRepository } from 'src/shared/database/repositories/users.repositories';
